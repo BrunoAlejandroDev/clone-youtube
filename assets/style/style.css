@@ -1,0 +1,14 @@
+/* NAVBAR SUPERIOR */ 
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 24px;
+}
+
+.navbar .navbar__logo-menu img:first-child {
+    margin-right: 24px;
+}
