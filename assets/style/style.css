@@ -6,9 +6,40 @@
     justify-content: space-between;
     align-items: center;
 
-    margin: 0 24px;
+    margin: 10px 0;
 }
 
 .navbar .navbar__logo-menu img:first-child {
     margin-right: 24px;
+}
+
+.navbar .navbar__search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .navbar__search input {
+    width: 500px;
+    padding: 10px 5px;
+
+    border: 1px solid #cccccc;
+}
+
+.navbar .navbar__search button {
+    padding: 8px 12px;
+
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+
+    cursor: pointer;
+}
+
+.navbar .navbar__user ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 15px;
 }
